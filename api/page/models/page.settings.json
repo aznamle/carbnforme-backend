@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "shortname"
+    },
+    "shortname": {
+      "type": "string"
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": []
+    }
+  }
+}

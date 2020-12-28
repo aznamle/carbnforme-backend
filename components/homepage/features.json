@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_homepage_features",
+  "info": {
+    "name": "Features",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FeatureTitle": {
+      "type": "string"
+    },
+    "FeatureDescription": {
+      "type": "richtext"
+    },
+    "Feature": {
+      "type": "richtext"
+    },
+    "FeatureImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

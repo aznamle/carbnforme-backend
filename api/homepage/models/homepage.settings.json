@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "dynamiczone",
+      "components": [
+        "homepage.hero"
+      ]
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "homepage.introduction",
+        "homepage.features"
+      ]
+    }
+  }
+}
