@@ -13,7 +13,7 @@
     "FeatureDescription": {
       "type": "richtext"
     },
-    "Feature": {
+    "Feature1": {
       "type": "richtext"
     },
     "FeatureImage": {
@@ -26,6 +26,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Feature2": {
+      "type": "richtext"
+    },
+    "Feature3": {
+      "type": "richtext"
     }
   }
 }
