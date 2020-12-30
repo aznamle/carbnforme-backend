@@ -24,6 +24,16 @@
       "type": "dynamiczone",
       "components": [
         "homepage.introduction",
+        "homepage.features",
+        "homepage.product-details"
+      ]
+    },
+    "productdetail": {
+      "type": "dynamiczone",
+      "components": [
+        "homepage.product-details",
+        "homepage.hero",
+        "homepage.introduction",
         "homepage.features"
       ]
     }
