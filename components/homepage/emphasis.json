@@ -1,17 +1,13 @@
 {
-  "collectionName": "components_homepage_banners",
+  "collectionName": "components_homepage_emphases",
   "info": {
-    "name": "Banner",
-    "icon": "bold",
-    "description": ""
+    "name": "emphasis",
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
-    "Text": {
-      "type": "string"
-    },
-    "coverimage": {
-      "collection": "file",
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -21,7 +17,7 @@
       "plugin": "upload",
       "required": false
     },
-    "button": {
+    "title": {
       "type": "string"
     },
     "description": {

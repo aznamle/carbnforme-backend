@@ -36,6 +36,15 @@
         "homepage.introduction",
         "homepage.features"
       ]
+    },
+    "closing": {
+      "type": "dynamiczone",
+      "components": [
+        "homepage.banner",
+        "homepage.features",
+        "homepage.product-details",
+        "homepage.emphasis"
+      ]
     }
   }
 }
